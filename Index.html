@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Quadrados Coloridos</title>
+    
+    <style>
+
+       
+    
+        
+        .quadro-vermelho1 {
+            border: 2px solid black;
+            background-color: red;
+            position:relative;
+            top: 2px;
+            align-items: flex-start;
+            left: 2px;
+            gap:0px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-vermelho2 {
+            border: 2px solid black;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: -1px;
+            gap:0px;
+            left: 201px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-vermelho3 {
+            border: 2px solid black;
+            background-color: red;
+            position: relative;
+            gap: 0px;
+            align-items: flex-start;
+            top: 7px;
+            left: 2px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-vermelho4 {
+            border: 2px solid black;
+            background-color: red;
+            position: relative;
+            align-items: flex-end;
+            gap: 0px;
+            top: 1px;
+            left: 200px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div1 {
+            background-color: red;
+            position: absolute;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div2 {
+            background-color: red;
+            position: absolute;
+            top: 2px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div3 {
+            background-color: red;
+            position: absolute;
+            top: 2px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div4 {
+            background-color: red;
+            position: absolute;
+            top: 2px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        
+        .quadro-div5 {
+            background-color: red;
+            position: relative;
+            top: 4px;
+            left: 2px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div6 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 3px;
+            gap:0px;
+            left: 202px; 
+            width: 200px;
+            height: 200px;
+            
+        }
+
+        .quadro-div7 {
+            background-color: red;
+            position: relative;
+            top: 6px;
+            gap: 0px;
+            left: 4px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div8 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 3px;
+            left: 202px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div9 {
+            background-color: red;
+            position: relative;
+            top: 7px;
+            left: 3px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        
+        .quadro-div10 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 4px;
+            gap: 0px;
+            left: 203px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div11 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 2px;
+            gap: 0px;
+            left: 202px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div12 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 4px;
+            gap: 0px;
+            left: 202px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div13 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: px;
+            gap: 0px;
+            left: 201px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-div14 {
+            border-color: white;
+            background-color: red;
+            position: absolute;
+            align-items: flex-end;
+            top: 2px;
+            gap: 0px;
+            left: 201px; 
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-azul1 {
+            background-color: #00b0f0;
+            position: absolute;
+            top: 1px;
+            gap: 0px;
+            left: 200px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-azul2 {
+            background-color: #00b0f0;
+            gap; 0px;
+            position: absolute;
+            top: 2px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-azul3 {
+            background-color: #00b0f0;
+            position: absolute;
+            gap: 0px;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-azul4 {
+            background-color: #00b0f0;
+            gap: 0px;
+            position: absolute;
+            top: 1px;
+            left: 202px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-verde1 {
+            background-color: #00b050;
+            position: absolute;
+            top: 2px;
+            gap: 0px;
+            left: 200px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-verde2 {
+            background-color: #00b050;
+            gap; 0px;
+            position: absolute;
+            top: 2px;
+            left: 202px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-verde3 {
+            background-color: #00b050;
+            position: absolute;
+            gap: 0px;;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-verde4 {
+            background-color: #00b050;
+            gap: 0px;
+            position: absolute;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-amarelo1 {
+            display: inline-block;
+            background-color: #b0b000;
+            position: absolute;
+            top: 3px;
+            gap: 0px;
+            left: 202px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-amarelo2 {
+            display: inline-block;
+            background-color: #b0b000;
+            gap; 0px;
+            position: absolute;
+            top: 2px;
+            left: 202px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-amarelo3 {
+            display: inline-block;
+            background-color: #b0b000;
+            position: absolute;
+            gap: 0px;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadro-amarelo4 {
+            display: inline-block;
+            background-color: #b0b000;
+            gap: 0px;
+            position: absolute;
+            top: 1px;
+            left: 201px; 
+            border-color: white;
+            width: 200px;
+            height: 200px;
+        }
+    
+    </style>
+</head>
+<body>
+    
+
+    <section>
+
+        <div>
+            <div class="quadro-vermelho1">
+            <div class="quadro-div1">
+            <div class="quadro-div2">
+            <div class="quadro-div3">
+            <div class="quadro-div4">
+            <div class="quadro-vermelho2"></div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <div class="quadro-div5">
+            <div class="quadro-azul1">
+            <div class="quadro-azul2">
+            <div class="quadro-azul3">
+            <div class="quadro-azul4">
+            <div class="quadro-div6"></div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <div class="quadro-div7">
+            <div class="quadro-verde1">
+            <div class="quadro-verde2">
+            <div class="quadro-verde3">
+            <div class="quadro-verde4">
+            <div class="quadro-div8"></div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <div class="quadro-div9">
+            <div class="quadro-amarelo1">
+            <div class="quadro-amarelo2">
+            <div class="quadro-amarelo3">
+            <div class="quadro-amarelo4">
+            <div class="quadro-div10"></div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <div class="quadro-vermelho3">
+            <div class="quadro-div11">
+            <div class="quadro-div12">
+            <div class="quadro-div13">
+            <div class="quadro-div14">
+            <div class="quadro-vermelho4"></div>
+
+        </div>
+
+    </section
+
+</body>
+
+</html>
